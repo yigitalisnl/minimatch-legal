@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiniMatch — Privacy Policy</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <a class="back" href="./index.html">&larr; MiniMatch</a>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: 2026-06-13</p>
+
+    <p>MiniMatch ("we", "us") is an 18+ entertainment app operated by Maesic
+      Studios. This policy explains what we do — and don't — with your data. By
+      using MiniMatch you agree to this policy.</p>
+
+    <h2>The short version</h2>
+    <ul>
+      <li><strong>We do not store your photos.</strong> Selfies you upload are
+        used in memory to produce your result and are discarded immediately
+        afterward. We only keep a non-reversible perceptual hash (a short
+        fingerprint that cannot reconstruct your face) so a couple gets the same
+        score each time.</li>
+      <li><strong>Results are AI-generated entertainment.</strong> Compatibility
+        scores and "baby" images are for fun and are not real predictions,
+        medical, or genetic information.</li>
+      <li><strong>You must be 18 or older</strong>, and everyone in an uploaded
+        photo must be an adult who has consented.</li>
+    </ul>
+
+    <h2>What we process</h2>
+    <table>
+      <thead>
+        <tr><th>Data</th><th>Purpose</th><th>Retention</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Uploaded selfies</td><td>Generate score + AI image</td><td>Processed in memory, <strong>not stored</strong></td></tr>
+        <tr><td>Perceptual hashes of faces</td><td>Deterministic, repeatable scores</td><td>Stored with your session</td></tr>
+        <tr><td>Generated baby image (watermarked)</td><td>Show and let you share your result</td><td>Stored in your account's bucket</td></tr>
+        <tr><td>Account identifiers (anonymous, then Google/Apple if you link at purchase)</td><td>Sign-in, save purchases</td><td>Until you delete your account</td></tr>
+        <tr><td>Purchase records (via RevenueCat)</td><td>Unlock your bundle, prevent double-charges</td><td>As required for billing/tax</td></tr>
+      </tbody>
+    </table>
+    <p>We do <strong>not</strong> sell your data or use your photos to train models.</p>
+
+    <h2>Third parties we share data with</h2>
+    <ul>
+      <li><strong>Supabase</strong> — authentication and database storage.</li>
+      <li><strong>fal.ai</strong> — runs the image generation model on the submitted photos.</li>
+      <li><strong>OpenAI</strong> — NSFW screening and narrative text generation.</li>
+      <li><strong>AWS Rekognition</strong> — face detection and age estimation to enforce the 18+ rule and reject photos with no face or multiple faces.</li>
+      <li><strong>RevenueCat / Apple / Google</strong> — in-app purchases.</li>
+    </ul>
+    <p>Each receives only what it needs to perform its function.</p>
+
+    <h2>Age and content safeguards</h2>
+    <p>Every uploaded photo is screened for: exactly one face, no minors
+      (estimated age must be 18+), and no explicit content. Photos failing these
+      checks are rejected and not processed further.</p>
+
+    <h2>Your choices</h2>
+    <ul>
+      <li><strong>Delete your account / data:</strong> contact
+        <a href="mailto:privacy@maesicstudios.com">privacy@maesicstudios.com</a>
+        and we will delete your stored hashes, generated images, and account records.</li>
+      <li>You can stop using the app at any time.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>MiniMatch is not directed to anyone under 18 and we do not knowingly
+      process their data. If you believe a minor has used the app, contact us and
+      we will remove the data.</p>
+
+    <h2>Changes</h2>
+    <p>We may update this policy; material changes will be reflected by the "Last
+      updated" date above.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:privacy@maesicstudios.com">privacy@maesicstudios.com</a></p>
+
+    <footer>MiniMatch by Maesic Studios · For entertainment only.</footer>
+  </div>
+</body>
+</html>
